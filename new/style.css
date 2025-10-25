@@ -1,0 +1,19 @@
+.food-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+}
+
+.hero-section {
+  background: url('images/hero.jpg') center/cover no-repeat;
+  color: white;
+}
